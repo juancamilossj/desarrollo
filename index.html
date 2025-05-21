@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ODS 9</title>
+</head>
+
+<script>
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      history.replaceState(null, null, window.location.pathname);
+    }
+  }
+</script>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>ODS 9 </h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home" onclick="scrollToSection('hero'); return false;">Inicio</a></li>
+            <li><a href="#services" data-after="Service" onclick="scrollToSection('services'); return false;">Información</a></li>
+            <li><a href="#about" data-after="About" onclick="scrollToSection('about'); return false;">Nosotros</a></li>
+            <li><a href="#contact" data-after="Contact" onclick="scrollToSection('contact'); return false;">Contacto</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>INDUSTRIA, <span></span></h1>
+        <h1>INNOVACIÓN E <span></span></h1>
+        <h1>INFRAESTRUCTURA <span></span></h1>
+        <a href="qr.jpg" type="button" class="cta">QR</a>        
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">INFOR<span>M</span>ACIÓN</h1>
+        <p>El Objetivo de Desarrollo Sostenible (ODS) 9 insta a construir infraestructuras resistentes, promover la industrialización inclusiva y sostenible y fomentar la innovación. Centrarse en la industria inclusiva y sostenible, la innovación y las infraestructuras desencadena fuerzas económicas dinámicas y competitivas que generan empleo e ingresos. Estas desempeñan un papel clave en la introducción y promoción de nuevas tecnologías, facilitando el comercio internacional y permitiendo el uso eficiente de los recursos.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>¿Cuánto hemos avanzado?</h2>
+          <p>En 2022, el 95 % de la población mundial tenía acceso a una red de banda ancha móvil, pero algunas zonas continúan desatendidas.
+A nivel mundial, la inversión en investigación y desarrollo ―así como la financiación destinada a infraestructuras económicas en países en desarrollo― ha aumentado y se han logrado avances impresionantes en la conectividad móvil, con casi la totalidad de la población mundial (97 %) viviendo al alcance de una señal celular móvil.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Por qué debería importarme?</h2>
+          <p>La industrialización inclusiva y sostenible, junto con la innovación y la infraestructura, pueden dar rienda suelta a las fuerzas económicas dinámicas y competitivas que generan empleo e ingresos. Estas desempeñan un papel clave a la hora de introducir y promover nuevas tecnologías, facilitar el comercio internacional y permitir el uso eficiente de los recursos.
+La expansión de nuevas industrias significa una mejora del nivel de vida para gran parte de la población.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>¿Qué podemos hacer para ayudar?</h2>
+          <p>Establecer normas e impulsar regulaciones que garanticen que los proyectos e iniciativas de las empresas se gestionan de forma sostenible.
+Colaborar con las ONG y el sector público para impulsar el crecimiento sostenible en los países en desarrollo.
+Analizar el impacto de la industria en la vida y el bienestar de las personas y utilizar las redes sociales para presionar a los responsables políticos para que den prioridad a los ODS.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>¿Qué se debe hacer?</h2>
+          <p>Invertir en infraestructuras ―transporte, regadío, energía y tecnologías de la información y la comunicación― es crucial para lograr un desarrollo sostenible y empoderar a las comunidades de muchos países. Para alcanzar el Objetivo 9 en 2030, es esencial apoyar a los PMA, invertir en tecnologías avanzadas, reducir las emisiones de carbono y aumentar el acceso a la banda ancha móvil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="ll.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">NOSO<span>TROS</span></h1>
+        <h2>Luis Florez</h2>
+        <h2>Juan Hernandez </h2>
+        <h2>Mateo Prioló</h2>
+        <p>Hola a todos,Somos Juan, Luis y Mateo, y hoy queremos presentarnos brevemente:
+          Juan Camilo es una persona muy comprometida y creativa. Siempre aporta ideas interesantes y sabe cómo trabajar en equipo de manera efectiva.Luis se destaca 
+          por su responsabilidad y buena disposición. Es alguien en quien siempre se puede confiar para cumplir con las tareas y apoyar al grupo.Y yo soy Mateo,
+           me considero una persona proactiva y con muchas ganas de aprender. Me gusta trabajar en proyectos donde podamos crecer juntos y enfrentar nuevos retos.</p>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Cont<span>acto</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+54 3207236624 </h2>            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>MateoJuanLuis@gmail.com</h2>            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Monteria - Cordoba </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>R</span>edes <span>S</span>ociales</h1>
+      </div>
+      <h2>GRACIAS POR TODO </h2>
+
+       <style>
+    .social-icon img {
+      width: 70px !important;
+      height: 50px !important;
+      object-fit: contain;
+     }
+       </style>
+
+      <div class="social-icon">
+  <div class="facebook">
+    <a href="https://www.facebook.com/profile.php?id=100092187063073&rdid=uX7TJwLBunc5XDgg&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F192j6fMTcq%2F#" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" />
+    </a>
+  </div>
+  <div class="instagram">
+    <a href="https://www.instagram.com/centroods/?igsh=MWRxd2o4NDl6cWIzNA%3D%3D#" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" />
+    </a>
+  </div>
+  <div class="youtube">
+    <a href="https://www.youtube.com/@SOStenibilidadEmpresarial" target="_blank">
+      <img src=" https://cdn-icons-png.flaticon.com/128/4494/4494467.png" />
+    </a>
+  </div>  
+</div>     
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
